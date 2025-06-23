@@ -1,0 +1,17 @@
+[project]
+name = "practice-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents>=0.0.19",
+]
+
+[project.scripts]
+practice-2 = "practice_2:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
